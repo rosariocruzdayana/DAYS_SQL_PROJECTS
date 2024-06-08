@@ -20,7 +20,7 @@ INSERT INTO rave VALUES (15, "chapstick", 5, 5, 2);
 
 SELECT * FROM rave ORDER BY price;
 
-/* What's the highest discount at rave? */  
+/* What is the highest discount at rave? */  
 SELECT MAX(discount) as most_discounted_items FROM rave
 
 /* What is the average item sold at rave? */ 
