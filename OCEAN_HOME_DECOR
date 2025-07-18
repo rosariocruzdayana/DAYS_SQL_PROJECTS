@@ -18,10 +18,4 @@ INSERT INTO ocean_home_decor VALUES (13, "ornaments" 200, 10, 40);
 INSERT INTO ocean_home_decor VALUES (14, "coasters" 150, 12, 15);
 INSERT INTO ocean_home_decor VALUES (15, "plates" 120, 32, 75);
 
-SELECT * FROM ocean_home_decor WHERE > 40 ORDER BY price; 
 
-/* What is the average discount at ocean_home_decor? */
-SELECT AVG(discount) FROM ocean_home_decor;
-
-/* What is the highest discounted price at ocean_home_decor? */
-SELECT MAX(discount) as most_discounted_decor FROM ocean_home_decor;
