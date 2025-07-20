@@ -20,12 +20,6 @@ INSERT INTO good_days_mini_doordash_bakery VALUES (14, "pumkin" 10, 4, 8, "banan
 INSERT INTO good_days_mini_doordash_bakery VALUES (15, "lavendar" 20, 8, 18, "bluerasberry" 17);
 
 
-SELECT * FROM good_days_bakery ORDER BY price 
+SELECT * FROM good_days_bakery 
 
-/* How many cakes were sold in August on vanilla flavored cakes most popular day? */
-INSERT SUM(vanilla) FROM good_days_mini_doordash_bakery;
 
-/* What is the highest discounted cake? */
-SELECT MAX(closing_sale) as most_discounted_cake FROM good_days_mini_doordash_bakery;
-
-/* What is the average cake baked at good_days_mini_doordash_bakery? */
